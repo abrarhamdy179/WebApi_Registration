@@ -1,0 +1,39 @@
+[
+  {
+    "ContainingType": "registration.Controllers.UserController",
+    "Method": "SignUp",
+    "RelativePath": "api/User",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "signupDto",
+        "Type": "registration.Dto.signupDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "registration.Controllers.UserController",
+    "Method": "Login",
+    "RelativePath": "api/User",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserNameDto",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UserPasswordDto",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
